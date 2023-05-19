@@ -1,0 +1,104 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  @keyframes appear {
+    0% {
+      opacity: 0.5;
+      transform: scale(0);
+      border-radius: 50%;
+    }
+    30% {
+      opacity: 0.75;
+      background-color: #ffeb35;
+    }
+    100% {
+      opacity: 1;
+      background-color: #00ff95;
+      transform: scale(1);
+      border-radius: 0px;
+    }
+  }
+
+  
+  .footer {
+    color: #67efda;
+  }
+  
+  .screen {
+    width: 38vw;
+    height: 38vw;
+    border-radius: 10px;
+  }
+  
+  .title {
+    border-radius: 20px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 11px 11px 27px #c5c5c5, -11px -11px 27px #fbfbfb;
+  }
+  
+  .card {
+    opacity: 0.75;
+  }
+  .card:hover {
+    box-shadow: 5px 5px 20px #3ae459;
+    opacity: 1;
+    transition: 300ms;
+  }
+  
+  .fa:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+  }
+  
+  .fa-youtube-play:hover {
+    color: #ff5555;
+  }
+  
+  .fa-linkedin-square:hover {
+    color: #2ea9fa;
+  }
+  
+  .fa-instagram {
+    border-radius: 10px;
+  }
+  .fa-instagram:hover {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  
+  @media screen and (max-width: 992px) {
+    .board, .control {
+      width: 75vw;
+      height: 75vw;
+    }
+  
+    .screen {
+      width: 70vw;
+      height: 70vw;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .control {
+      border-radius: 0px;
+      background: none;
+      box-shadow: none;
+    }
+    @media screen and (max-width: 340px) {
+      .card-grp {
+        display: none;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .card-grp {
+      margin-top: 30px;
+    }
+    .icon {
+      margin-top: 100px;
+    }
+  } */
