@@ -27,7 +27,7 @@ export class Tutorial extends Component {
     return (
       <div className="PopUpTextBox">
         <header>
-          <p>Welcome to Dijkstra Search Visualizer</p>
+          <p>Welcome to Dijkstra Search Visualizer by Saksham</p>
           <h3 onClick={skipPopUp}>x</h3>
         </header>
 
